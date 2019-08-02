@@ -1,0 +1,74 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header {
+    width: 100%;
+    height: 60px;
+    background-color:rgb(104, 42, 104);
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 1.2em;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#header {
+    padding-top: 25px;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: rgb(104, 42, 104);
+    box-shadow: 0 8px 4px -4px rgba(0,0,0,.2);
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 50px;
+    text-decoration: none;
+}
+#navlist li {
+    list-style: none;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;    
+}
+a:hover {
+    text-decoration: underline;
+}
+
+#center-justified {
+    text-align: justify;
+    margin: 0 auto;
+    width: 50em;
+    font-size: 18px;
+}
+#title {
+    text-align: center;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px 0 0 20px;
+}
+
+
+#footer {
+    color: white;
+    background: rgb(104, 42, 104);
+    position: relative;
+    height: 60px;
+    margin-top: 60px;
+    clear: both;
+    text-align: center;
+    margin: 0px auto;
+    width: 100%;
+}
+img {
+    max-width: 100%;
+}

@@ -1,0 +1,54 @@
+@media screen and (max-width: 900px) {
+    .header {
+        font-size: 90%;
+    }
+    .gethsemane {
+        display: none;
+    }
+    .objective {
+        margin: auto;
+        width: auto;
+        padding-left: 35px;
+    }
+    .video {
+        margin: auto;
+        height: auto;
+        width: auto;
+    }
+    .column {
+        width: auto;
+        margin: 0 auto;
+        grid-template-columns: auto auto;   
+        padding: 0 25px 0 25px;
+        }
+    
+
+
+}
+
+
+@media screen and (max-width: 620px) {
+    .header {
+        font-size: 75%;
+    }
+    .gethsemane {
+        display: none;
+    }
+    .objective {
+        margin: auto;
+        width: auto;
+        padding-left: 50px;
+    }
+    
+        iframe {
+            height: auto;
+            width:auto;
+        }
+    .column {
+        width: auto;
+        margin: 0 auto;
+        grid-template-columns: auto;   
+        }
+    
+
+}

@@ -1,0 +1,52 @@
+@media screen and (max-width: 900px) {
+    #welcome {
+        font-size: 100%;
+        margin: auto;
+        width: auto;
+    }
+    .family {
+        width: auto;
+        height: auto;
+        margin: auto;
+    }
+    .about {
+        font-size: 100%;
+        margin: auto;
+    }
+    .center-justified {
+        width: auto;
+        margin: auto;      
+    }
+    .header {
+        font-size: 90%;
+    }
+}
+
+
+
+@media screen and (max-width: 620px) {
+    #welcome {
+        font-size: 100%;
+        margin: auto;
+        width: auto;
+    }
+    .family {
+        margin: auto;
+        width: auto;
+        height: auto;
+    }
+    .about {
+        width: 100%;
+        font-size: 100%;
+        margin: auto;
+    }
+    .center-justified {
+        width: auto;
+        margin: auto;      
+    }
+    .header {
+        font-size: 75%;
+    }
+
+
+}
